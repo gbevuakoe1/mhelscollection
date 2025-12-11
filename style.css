@@ -156,7 +156,7 @@ header .fa-bars{
 .about .row{
   display: flex;
   align-items: center;
-  gap: 2rem;
+  gap: 2.5rem;
   flex-wrap: wrap;
   padding: 2rem 0;
   padding-bottom: 3rem;
