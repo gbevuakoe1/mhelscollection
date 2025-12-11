@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #333;
+}
+
+
+.wrapper{
+    width: 50rem;
+    background-color: #999;
+    color: white;
+    border-radius: 1rem;
+    padding: 3rem 4rem;
+}
+
+.wrapper h1{
+    font-size: 3.6rem;
+    color: #fff;
+    text-align: center;
+}
+
+.wrapper .input-box{
+    width: 100%;
+    height: 5rem;
+    margin: 3rem 0;
+    position: relative;
+}
+
+.wrapper .input-box input{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    border: .2rem solid rgba(255, 255, 255, .2);
+    border-radius: 4rem;
+    font-size: 1.6rem;
+    color: #fff;
+    padding: 2rem 4.5rem 2rem 2rem;
+}
+
+.wrapper .input-box input::placeholder{
+    color: #fff;
+}
+
+.wrapper .input-box i{
+    position: absolute;
+    right: 2rem;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2rem;
+}
+
+
+.wrapper .remember-forgot{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.45rem;
+    margin: -1.5rem 0 1.5rem;
+    padding:  0 2rem;
+}
+
+.wrapper .remember-forgot label input{
+    margin-right: .4rem;
+}
+
+.wrapper .remember-forgot a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.wrapper .remember-forgot a:hover{
+    text-decoration: underline;
+}
+
+.wrapper .btn{
+    width: 100%;
+    height: 4.5rem;
+    background: #fff;
+    border: none;
+    border-radius: 4rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, .1);
+    cursor: pointer;
+    color: #333;
+    font-weight: 600;
+}
+
+.wrapper .register-link{
+    font-size: 1.45rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.wrapper .register-link p a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.wrapper .register-link p a:hover{
+    text-decoration: underline;
+}
