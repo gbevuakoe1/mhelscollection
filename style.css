@@ -205,9 +205,9 @@ header .fa-bars{
 }
 
 .about .row .content p{
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   color: #999;
-  line-height: 1.5;
+  line-height: 1.8;
   padding: 0.5rem 0;
   padding-top: 1rem;
   
@@ -296,7 +296,7 @@ header .fa-bars{
 
 .products .box-container .box .image .icons{
   position: absolute;
-  bottom: 0;
+  bottom: -7rem;
   left: 0;
   right: 0;
   display: flex;
@@ -312,6 +312,10 @@ header .fa-bars{
   color: #fff;
 }
 
+.products .box-container .box:hover .image .icons{
+  bottom: 0;
+}
+
 
 .products .box-container .box .image .icons .cart-btn{
   border-left: .1rem solid #fff7;
@@ -322,6 +326,34 @@ header .fa-bars{
 .products .box-container .box .image .icons a:hover{
   background-color: #333;
 }
+
+.products .box-container .content{
+  padding: 2rem;
+  text-align: center;
+
+}
+
+.products .box-container .content h3{
+  color: #333;
+  font-size: 2.2rem;
+}
+
+.products .box-container .content .price{
+  font-size: 1.8rem;
+  color: var(--pink);
+  font-weight: bolder;
+  padding-top: 1rem;
+}
+
+
+.products .box-container .content .price span{
+  font-size: 1.3rem;
+  color: #333;
+  font-weight: lighter;
+  text-decoration: line-through;
+}
+
+
 
 
 
