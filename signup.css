@@ -66,7 +66,7 @@ body{
 }
 
 
-.wrapper .remember-forgot{
+.wrapper .policy-text{
     display: flex;
     justify-content: space-between;
     font-size: 1.45rem;
@@ -74,16 +74,16 @@ body{
     padding:  0 2rem;
 }
 
-.wrapper .remember-forgot label input{
+.wrapper .policy-text label input{
     margin-right: .4rem;
 }
 
-.wrapper .remember-forgot a{
-    color: #fff;
+.wrapper .policy-text a{
+    color: blue;
     text-decoration: none;
 }
 
-.wrapper .remember-forgot a:hover{
+.wrapper .policy-text a:hover{
     text-decoration: underline;
 }
 

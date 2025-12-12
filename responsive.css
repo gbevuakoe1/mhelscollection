@@ -68,6 +68,12 @@
       
       }
 
+
+
+      .footer .box-container{
+        flex-direction: column;
+      }
+
 }
 
 
